@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "name": "assignment",  
+  "scripts": {
+    "lerna-clean": "lerna clean -y",
+    "lerna-bootstrap-hoist": "lerna bootstrap --hoist",
+    "start": "lerna run start",
+    "start-web-client": "lerna run start --scope=web-client",
+    "start-server-api": "lerna run start --scope=server-api"
+  }
+}
